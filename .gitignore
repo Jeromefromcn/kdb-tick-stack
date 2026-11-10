@@ -1,0 +1,30 @@
+# --- kdb+ licence: never commit ---
+*.lic
+
+# --- kdb+ runtime data ---
+db/
+hdb/
+tplogs/
+*.tplog
+
+# --- Maven / Java ---
+target/
+*.class
+hs_err_pid*.log
+
+# --- Python (PyKX, Phase 10) ---
+__pycache__/
+.venv/
+
+# --- Local ---
+*.log
+!docs/evidence/**
+.env
+.env.*
+!.env.example
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
