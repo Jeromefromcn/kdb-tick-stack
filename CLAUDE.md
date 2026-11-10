@@ -4,9 +4,7 @@ A minimal kdb+tick stack fed by live crypto market data through a Java
 feedhandler. `ROADMAP.md` drives everything; read the phase before touching
 its code.
 
-## Keep it publishable
-
-The repo starts private but is written so it can be made public at any time.
+## Public means public
 
 - Nothing here references a private repo, an employer, a job description, a
   recruiter, or a compensation figure. If a rationale only makes sense by

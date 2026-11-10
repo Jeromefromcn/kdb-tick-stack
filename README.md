@@ -17,5 +17,10 @@ numbers and a decision record. The plan is in [ROADMAP.md](ROADMAP.md).
 
 ## Licence note
 
-kdb+ itself is licensed by KX and is not distributed here. Licence files
-(`*.lic`) are git-ignored and must never be committed.
+kdb+ itself is licensed by KX and is not distributed here. The stack targets
+the free KDB-X Community Edition and stays within its usage restrictions (one
+instance, 16 GB RAM for q, 16 connections per process). Licence files (`*.lic`)
+are git-ignored and must never be committed.
+
+KX, KDB-X and kdb+ are registered trademarks of KX Systems, Inc. This project is
+not affiliated with or endorsed by KX.

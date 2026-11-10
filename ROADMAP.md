@@ -38,9 +38,11 @@
 
 ## Phase 0 · 安裝與 REPL（1 晚）
 
-- 申請免費授權：kdb+ Personal Edition 或 KDB-X Community Edition，選一個。🔍
-  先核實三件事：**能否在 aarch64 Linux 上跑**（kdb+ 有 `l64arm` build，KDB-X 待查）、
-  是否要一直聯網驗證授權、授權條款是否允許公開的學習項目。ARM 不支持就在 x86 / Docker 上跑。
+- 申請 **KDB-X Community Edition** 免費授權（個人和商業項目都可用）。限制：單一實例、
+  q 總共最多 16GB RAM、每進程最多 4 個 secondary threads 和 16 個連接、最多 24 核。
+  本項目的 5 個進程在同一台機器上，都在限制內。（kdb+ Personal Edition 僅限非商業用途、
+  12 個月有效，不選。）
+- 🔍 核實能否在 aarch64 Linux 上跑；不支持就在 x86 / Docker 上跑。
 - 跑通 `q`，試 `til 10`、`\t`、`\\`（退出）。
 - 裝 VS Code 的 KX 擴展 🔍 或直接用 REPL。
 
